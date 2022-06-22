@@ -2937,9 +2937,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, ana, hisoka.user.name, cok, btn, cok)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, ana, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButGif(m.chat, ana, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, ana, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButVid(m.chat, ana, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, ana, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -2966,9 +2966,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, asa, hisoka.user.name, sdk, btn, sdk)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, asa, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButGif(m.chat, asa, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, asa, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButVid(m.chat, asa, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, asa, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -2999,9 +2999,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, asu, hisoka.user.name, jck, btn, jck)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, asu, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButGif(m.chat, asu, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, asu, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButVid(m.chat, asu, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, asu, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -3346,9 +3346,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.visoka)
+                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
