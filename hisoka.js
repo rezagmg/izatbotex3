@@ -567,7 +567,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'sc': {
-                m.reply('Script : https://github.com/DikaArdnt/Hisoka-Morou\n\n Dont Forget Give Star\n\nDonate : 6281615075793 (Link Aja)\nSaweria : https://saweria.co/DikaArdnt\nPaypal : https://www.paypal.me/Cakhaho\n\n Dont Forget Donate')
+                m.reply('Script : https://github.com/rezagmg/izatbotex\n\n Never give up for\nlive for life\nis a gift\n\nDonate : 6285742632270 (Dana/Gopay/Ovo/Shopee Pay/Link Aja)\n\n Dont Forget Donate 😊')
             }
             break
             case 'sewabot': case 'buypremium': {
@@ -1200,27 +1200,17 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
+                                    url: 'https://github.com/rezagmg/izatbotex'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-7426-32270'
+                                    phoneNumber: '+62 857-4263-2270'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Menu',
+                                    id: 'menu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -1244,22 +1234,12 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-7426-32270'
+                                    phoneNumber: '+62 857-4263-2270'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
+                                    displayText: 'Menu',
+                                    id: 'menu'
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
@@ -2908,7 +2888,7 @@ let capt = `⭔ Title: ${judul}
                 } else {
                 let sections = [
                 {
-                title: "CHANGE MENU BOT",
+                title: "GANTI MENU BOT",
                 rows: [
                 {title: "Template Image", rowId: `setmenu templateImage`, description: `Change menu bot to Template Image`},
                 {title: "Template Video", rowId: `setmenu templateVideo`, description: `Change menu bot to Template Video`},
@@ -2918,7 +2898,7 @@ let capt = `⭔ Title: ${judul}
                 ]
                 },
                 ]
-                hisoka.sendListMsg(m.chat, `Please select the menu you want to change!`, hisoka.user.name, `Hello Owner !`, `CLICK HERE`, sections, m)
+                hisoka.sendListMsg(m.chat, `Please select the menu you want to change!`, hisoka.user.name, `Hello Owner 🤩!`, `KLIK DI SINI`, sections, m)
                 }
             }
             break
@@ -2957,9 +2937,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, ana, hisoka.user.name, cok, btn, cok)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, ana, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, ana, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, ana, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, ana, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, ana, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -2986,9 +2966,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, asa, hisoka.user.name, sdk, btn, sdk)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, asa, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, asa, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, asa, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, asa, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, asa, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -3019,9 +2999,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, asu, hisoka.user.name, jck, btn, jck)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, asu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, asu, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, asu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, asu, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, asu, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
@@ -3366,9 +3346,9 @@ let capt = `⭔ Title: ${judul}
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.visoka)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
                         } else if (setbot.templateLocation) {
