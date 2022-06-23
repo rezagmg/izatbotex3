@@ -2643,7 +2643,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             case 'public': {
                 if (!isCreator) throw mess.owner
                 hisoka.public = true
-                m.reply('Sukse Change To Public Usage')
+                m.reply('Sukses Change To Public Usage')
             }
             break
             case 'self': {
